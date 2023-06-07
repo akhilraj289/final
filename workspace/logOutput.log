@@ -1,0 +1,13 @@
+2023-03-15 11:14:04 : MainThread : INFO : Initializing Threadpool with 3 workers
+2023-03-15 11:14:04 : MainThread : INFO : Extracting frames from vido: /Users/deepikasulakhe/Downloads/dipuSelfie.mp4 assigned videoID: testVid03
+2023-03-15 11:14:04 : MainThread : DEBUG : Saving frames to folder C:\Users\kusha\workspace\data\frames\testVid03
+2023-03-15 11:14:04 : MainThread : DEBUG : Video metadata width:0.0 height:0.0 fps:0.0
+2023-03-15 11:14:04 : MainThread : DEBUG : Extracted 0 frames from video
+2023-03-15 11:14:04 : MainThread : INFO : Completed frames extraction
+2023-03-15 11:14:04 : MainThread : INFO : Start generating delaunay triangles
+2023-03-15 11:14:04 : MainThread : INFO : Distributing 0 among 3
+2023-03-15 11:14:04 : MainThread : INFO : Waiting for workers to complete the task
+2023-03-15 11:14:04 : worker_0 : INFO : Worker genarting delaunay triangles for frames ranging 0 - 0
+2023-03-15 11:14:04 : worker_0 : INFO : Worker finished generating delaunay triangles for frames ranging 0 - 0
+2023-03-15 11:14:04 : MainThread : INFO : Completed generating delaunay triangles
+2023-03-15 11:14:04 : MainThread : INFO : Start writing outputvideo

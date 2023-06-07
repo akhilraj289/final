@@ -1,0 +1,737 @@
+2023-03-14 23:27:12 : MainThread : INFO : Initializing Threadpool with 3 workers
+2023-03-14 23:27:12 : MainThread : INFO : Extracting frames from vido: /Users/deepikasulakhe/Downloads/dipuSelfie.mp4 assigned videoID: testVid02
+2023-03-14 23:27:12 : MainThread : DEBUG : Saving frames to folder /Users/deepikasulakhe/workspace/data/frames/testVid02
+2023-03-14 23:27:12 : MainThread : DEBUG : Video metadata width:1080.0 height:1920.0 fps:30.0
+2023-03-14 23:27:14 : MainThread : DEBUG : Extracted 179 frames from video
+2023-03-14 23:27:14 : MainThread : INFO : Completed frames extraction
+2023-03-14 23:27:14 : MainThread : INFO : Start generating delaunay triangles
+2023-03-14 23:27:14 : MainThread : INFO : Distributing 179 among 3
+2023-03-14 23:27:14 : worker_0 : INFO : Worker genarting delaunay triangles for frames ranging 0 - 59
+2023-03-14 23:27:14 : worker_1 : INFO : Worker genarting delaunay triangles for frames ranging 59 - 118
+2023-03-14 23:27:14 : MainThread : INFO : Waiting for workers to complete the task
+2023-03-14 23:27:14 : worker_2 : INFO : Worker genarting delaunay triangles for frames ranging 118 - 179
+2023-03-14 23:27:15 : worker_0 : DEBUG : Worker genarting vertices for frame 0
+2023-03-14 23:27:16 : worker_2 : DEBUG : Worker genarting vertices for frame 118
+2023-03-14 23:27:16 : worker_0 : DEBUG : Worker genarting delaunay for frame 0
+2023-03-14 23:27:16 : worker_2 : DEBUG : Worker genarting delaunay for frame 118
+2023-03-14 23:27:16 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 0
+2023-03-14 23:27:16 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 118
+2023-03-14 23:27:16 : worker_1 : DEBUG : Worker genarting vertices for frame 59
+2023-03-14 23:27:17 : worker_0 : DEBUG : Worker genarting vertices for frame 1
+2023-03-14 23:27:17 : worker_0 : DEBUG : Worker genarting delaunay for frame 1
+2023-03-14 23:27:17 : worker_1 : DEBUG : Worker genarting delaunay for frame 59
+2023-03-14 23:27:17 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 1
+2023-03-14 23:27:17 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 59
+2023-03-14 23:27:17 : worker_2 : DEBUG : Worker genarting vertices for frame 119
+2023-03-14 23:27:18 : worker_0 : DEBUG : Worker genarting vertices for frame 2
+2023-03-14 23:27:18 : worker_2 : DEBUG : Worker genarting delaunay for frame 119
+2023-03-14 23:27:18 : worker_0 : DEBUG : Worker genarting delaunay for frame 2
+2023-03-14 23:27:18 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 119
+2023-03-14 23:27:18 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 2
+2023-03-14 23:27:18 : worker_1 : DEBUG : Worker genarting vertices for frame 60
+2023-03-14 23:27:19 : worker_2 : DEBUG : Worker genarting vertices for frame 120
+2023-03-14 23:27:19 : worker_1 : DEBUG : Worker genarting delaunay for frame 60
+2023-03-14 23:27:19 : worker_2 : DEBUG : Worker genarting delaunay for frame 120
+2023-03-14 23:27:19 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 60
+2023-03-14 23:27:19 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 120
+2023-03-14 23:27:20 : worker_0 : DEBUG : Worker genarting vertices for frame 3
+2023-03-14 23:27:20 : worker_2 : DEBUG : Worker genarting vertices for frame 121
+2023-03-14 23:27:20 : worker_0 : DEBUG : Worker genarting delaunay for frame 3
+2023-03-14 23:27:20 : worker_2 : DEBUG : Worker genarting delaunay for frame 121
+2023-03-14 23:27:20 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 3
+2023-03-14 23:27:20 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 121
+2023-03-14 23:27:20 : worker_1 : DEBUG : Worker genarting vertices for frame 61
+2023-03-14 23:27:21 : worker_1 : DEBUG : Worker genarting delaunay for frame 61
+2023-03-14 23:27:21 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 61
+2023-03-14 23:27:21 : worker_0 : DEBUG : Worker genarting vertices for frame 4
+2023-03-14 23:27:21 : worker_2 : DEBUG : Worker genarting vertices for frame 122
+2023-03-14 23:27:21 : worker_0 : DEBUG : Worker genarting delaunay for frame 4
+2023-03-14 23:27:21 : worker_2 : DEBUG : Worker genarting delaunay for frame 122
+2023-03-14 23:27:22 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 4
+2023-03-14 23:27:22 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 122
+2023-03-14 23:27:22 : worker_1 : DEBUG : Worker genarting vertices for frame 62
+2023-03-14 23:27:23 : worker_0 : DEBUG : Worker genarting vertices for frame 5
+2023-03-14 23:27:23 : worker_1 : DEBUG : Worker genarting delaunay for frame 62
+2023-03-14 23:27:23 : worker_0 : DEBUG : Worker genarting delaunay for frame 5
+2023-03-14 23:27:23 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 62
+2023-03-14 23:27:23 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 5
+2023-03-14 23:27:23 : worker_2 : DEBUG : Worker genarting vertices for frame 123
+2023-03-14 23:27:24 : worker_0 : DEBUG : Worker genarting vertices for frame 6
+2023-03-14 23:27:24 : worker_2 : DEBUG : Worker genarting delaunay for frame 123
+2023-03-14 23:27:24 : worker_0 : DEBUG : Worker genarting delaunay for frame 6
+2023-03-14 23:27:24 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 6
+2023-03-14 23:27:24 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 123
+2023-03-14 23:27:24 : worker_1 : DEBUG : Worker genarting vertices for frame 63
+2023-03-14 23:27:25 : worker_0 : DEBUG : Worker genarting vertices for frame 7
+2023-03-14 23:27:25 : worker_1 : DEBUG : Worker genarting delaunay for frame 63
+2023-03-14 23:27:25 : worker_0 : DEBUG : Worker genarting delaunay for frame 7
+2023-03-14 23:27:25 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 63
+2023-03-14 23:27:25 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 7
+2023-03-14 23:27:25 : worker_2 : DEBUG : Worker genarting vertices for frame 124
+2023-03-14 23:27:26 : worker_0 : DEBUG : Worker genarting vertices for frame 8
+2023-03-14 23:27:26 : worker_0 : DEBUG : Worker genarting delaunay for frame 8
+2023-03-14 23:27:26 : worker_2 : DEBUG : Worker genarting delaunay for frame 124
+2023-03-14 23:27:26 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 8
+2023-03-14 23:27:26 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 124
+2023-03-14 23:27:26 : worker_1 : DEBUG : Worker genarting vertices for frame 64
+2023-03-14 23:27:27 : worker_0 : DEBUG : Worker genarting vertices for frame 9
+2023-03-14 23:27:27 : worker_1 : DEBUG : Worker genarting delaunay for frame 64
+2023-03-14 23:27:27 : worker_0 : DEBUG : Worker genarting delaunay for frame 9
+2023-03-14 23:27:27 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 64
+2023-03-14 23:27:27 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 9
+2023-03-14 23:27:27 : worker_2 : DEBUG : Worker genarting vertices for frame 125
+2023-03-14 23:27:28 : worker_0 : DEBUG : Worker genarting vertices for frame 10
+2023-03-14 23:27:28 : worker_2 : DEBUG : Worker genarting delaunay for frame 125
+2023-03-14 23:27:28 : worker_0 : DEBUG : Worker genarting delaunay for frame 10
+2023-03-14 23:27:28 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 10
+2023-03-14 23:27:28 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 125
+2023-03-14 23:27:28 : worker_1 : DEBUG : Worker genarting vertices for frame 65
+2023-03-14 23:27:29 : worker_1 : DEBUG : Worker genarting delaunay for frame 65
+2023-03-14 23:27:29 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 65
+2023-03-14 23:27:29 : worker_0 : DEBUG : Worker genarting vertices for frame 11
+2023-03-14 23:27:29 : worker_2 : DEBUG : Worker genarting vertices for frame 126
+2023-03-14 23:27:29 : worker_0 : DEBUG : Worker genarting delaunay for frame 11
+2023-03-14 23:27:29 : worker_2 : DEBUG : Worker genarting delaunay for frame 126
+2023-03-14 23:27:30 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 11
+2023-03-14 23:27:30 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 126
+2023-03-14 23:27:30 : worker_1 : DEBUG : Worker genarting vertices for frame 66
+2023-03-14 23:27:31 : worker_0 : DEBUG : Worker genarting vertices for frame 12
+2023-03-14 23:27:31 : worker_1 : DEBUG : Worker genarting delaunay for frame 66
+2023-03-14 23:27:31 : worker_0 : DEBUG : Worker genarting delaunay for frame 12
+2023-03-14 23:27:31 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 12
+2023-03-14 23:27:31 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 66
+2023-03-14 23:27:31 : worker_2 : DEBUG : Worker genarting vertices for frame 127
+2023-03-14 23:27:32 : worker_0 : DEBUG : Worker genarting vertices for frame 13
+2023-03-14 23:27:32 : worker_2 : DEBUG : Worker genarting delaunay for frame 127
+2023-03-14 23:27:32 : worker_0 : DEBUG : Worker genarting delaunay for frame 13
+2023-03-14 23:27:32 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 13
+2023-03-14 23:27:32 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 127
+2023-03-14 23:27:32 : worker_1 : DEBUG : Worker genarting vertices for frame 67
+2023-03-14 23:27:33 : worker_1 : DEBUG : Worker genarting delaunay for frame 67
+2023-03-14 23:27:33 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 67
+2023-03-14 23:27:33 : worker_2 : DEBUG : Worker genarting vertices for frame 128
+2023-03-14 23:27:33 : worker_0 : DEBUG : Worker genarting vertices for frame 14
+2023-03-14 23:27:33 : worker_2 : DEBUG : Worker genarting delaunay for frame 128
+2023-03-14 23:27:33 : worker_0 : DEBUG : Worker genarting delaunay for frame 14
+2023-03-14 23:27:33 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 14
+2023-03-14 23:27:33 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 128
+2023-03-14 23:27:34 : worker_1 : DEBUG : Worker genarting vertices for frame 68
+2023-03-14 23:27:34 : worker_0 : DEBUG : Worker genarting vertices for frame 15
+2023-03-14 23:27:34 : worker_1 : DEBUG : Worker genarting delaunay for frame 68
+2023-03-14 23:27:34 : worker_0 : DEBUG : Worker genarting delaunay for frame 15
+2023-03-14 23:27:34 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 15
+2023-03-14 23:27:34 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 68
+2023-03-14 23:27:35 : worker_2 : DEBUG : Worker genarting vertices for frame 129
+2023-03-14 23:27:35 : worker_1 : DEBUG : Worker genarting vertices for frame 69
+2023-03-14 23:27:35 : worker_2 : DEBUG : Worker genarting delaunay for frame 129
+2023-03-14 23:27:35 : worker_1 : DEBUG : Worker genarting delaunay for frame 69
+2023-03-14 23:27:35 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 69
+2023-03-14 23:27:35 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 129
+2023-03-14 23:27:36 : worker_0 : DEBUG : Worker genarting vertices for frame 16
+2023-03-14 23:27:36 : worker_0 : DEBUG : Worker genarting delaunay for frame 16
+2023-03-14 23:27:36 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 16
+2023-03-14 23:27:37 : worker_1 : DEBUG : Worker genarting vertices for frame 70
+2023-03-14 23:27:37 : worker_2 : DEBUG : Worker genarting vertices for frame 130
+2023-03-14 23:27:37 : worker_1 : DEBUG : Worker genarting delaunay for frame 70
+2023-03-14 23:27:37 : worker_2 : DEBUG : Worker genarting delaunay for frame 130
+2023-03-14 23:27:37 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 130
+2023-03-14 23:27:37 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 70
+2023-03-14 23:27:38 : worker_0 : DEBUG : Worker genarting vertices for frame 17
+2023-03-14 23:27:38 : worker_0 : DEBUG : Worker genarting delaunay for frame 17
+2023-03-14 23:27:38 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 17
+2023-03-14 23:27:38 : worker_2 : DEBUG : Worker genarting vertices for frame 131
+2023-03-14 23:27:38 : worker_1 : DEBUG : Worker genarting vertices for frame 71
+2023-03-14 23:27:38 : worker_1 : DEBUG : Worker genarting delaunay for frame 71
+2023-03-14 23:27:38 : worker_2 : DEBUG : Worker genarting delaunay for frame 131
+2023-03-14 23:27:39 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 71
+2023-03-14 23:27:39 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 131
+2023-03-14 23:27:39 : worker_0 : DEBUG : Worker genarting vertices for frame 18
+2023-03-14 23:27:40 : worker_1 : DEBUG : Worker genarting vertices for frame 72
+2023-03-14 23:27:40 : worker_1 : DEBUG : Worker genarting delaunay for frame 72
+2023-03-14 23:27:40 : worker_0 : DEBUG : Worker genarting delaunay for frame 18
+2023-03-14 23:27:40 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 72
+2023-03-14 23:27:40 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 18
+2023-03-14 23:27:40 : worker_2 : DEBUG : Worker genarting vertices for frame 132
+2023-03-14 23:27:41 : worker_2 : DEBUG : Worker genarting delaunay for frame 132
+2023-03-14 23:27:41 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 132
+2023-03-14 23:27:41 : worker_1 : DEBUG : Worker genarting vertices for frame 73
+2023-03-14 23:27:41 : worker_0 : DEBUG : Worker genarting vertices for frame 19
+2023-03-14 23:27:41 : worker_0 : DEBUG : Worker genarting delaunay for frame 19
+2023-03-14 23:27:41 : worker_1 : DEBUG : Worker genarting delaunay for frame 73
+2023-03-14 23:27:41 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 19
+2023-03-14 23:27:41 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 73
+2023-03-14 23:27:42 : worker_2 : DEBUG : Worker genarting vertices for frame 133
+2023-03-14 23:27:42 : worker_0 : DEBUG : Worker genarting vertices for frame 20
+2023-03-14 23:27:42 : worker_2 : DEBUG : Worker genarting delaunay for frame 133
+2023-03-14 23:27:42 : worker_0 : DEBUG : Worker genarting delaunay for frame 20
+2023-03-14 23:27:42 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 133
+2023-03-14 23:27:42 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 20
+2023-03-14 23:27:43 : worker_1 : DEBUG : Worker genarting vertices for frame 74
+2023-03-14 23:27:44 : worker_1 : DEBUG : Worker genarting delaunay for frame 74
+2023-03-14 23:27:44 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 74
+2023-03-14 23:27:44 : worker_2 : DEBUG : Worker genarting vertices for frame 134
+2023-03-14 23:27:44 : worker_0 : DEBUG : Worker genarting vertices for frame 21
+2023-03-14 23:27:44 : worker_0 : DEBUG : Worker genarting delaunay for frame 21
+2023-03-14 23:27:44 : worker_2 : DEBUG : Worker genarting delaunay for frame 134
+2023-03-14 23:27:44 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 21
+2023-03-14 23:27:44 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 134
+2023-03-14 23:27:44 : worker_1 : DEBUG : Worker genarting vertices for frame 75
+2023-03-14 23:27:45 : worker_1 : DEBUG : Worker genarting delaunay for frame 75
+2023-03-14 23:27:45 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 75
+2023-03-14 23:27:46 : worker_2 : DEBUG : Worker genarting vertices for frame 135
+2023-03-14 23:27:46 : worker_0 : DEBUG : Worker genarting vertices for frame 22
+2023-03-14 23:27:46 : worker_2 : DEBUG : Worker genarting delaunay for frame 135
+2023-03-14 23:27:46 : worker_0 : DEBUG : Worker genarting delaunay for frame 22
+2023-03-14 23:27:46 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 22
+2023-03-14 23:27:46 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 135
+2023-03-14 23:27:46 : worker_1 : DEBUG : Worker genarting vertices for frame 76
+2023-03-14 23:27:47 : worker_1 : DEBUG : Worker genarting delaunay for frame 76
+2023-03-14 23:27:47 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 76
+2023-03-14 23:27:47 : worker_2 : DEBUG : Worker genarting vertices for frame 136
+2023-03-14 23:27:47 : worker_0 : DEBUG : Worker genarting vertices for frame 23
+2023-03-14 23:27:47 : worker_2 : DEBUG : Worker genarting delaunay for frame 136
+2023-03-14 23:27:47 : worker_0 : DEBUG : Worker genarting delaunay for frame 23
+2023-03-14 23:27:47 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 23
+2023-03-14 23:27:47 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 136
+2023-03-14 23:27:48 : worker_1 : DEBUG : Worker genarting vertices for frame 77
+2023-03-14 23:27:48 : worker_1 : DEBUG : Worker genarting delaunay for frame 77
+2023-03-14 23:27:48 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 77
+2023-03-14 23:27:49 : worker_0 : DEBUG : Worker genarting vertices for frame 24
+2023-03-14 23:27:49 : worker_2 : DEBUG : Worker genarting vertices for frame 137
+2023-03-14 23:27:49 : worker_2 : DEBUG : Worker genarting delaunay for frame 137
+2023-03-14 23:27:49 : worker_0 : DEBUG : Worker genarting delaunay for frame 24
+2023-03-14 23:27:49 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 24
+2023-03-14 23:27:49 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 137
+2023-03-14 23:27:49 : worker_1 : DEBUG : Worker genarting vertices for frame 78
+2023-03-14 23:27:50 : worker_0 : DEBUG : Worker genarting vertices for frame 25
+2023-03-14 23:27:50 : worker_1 : DEBUG : Worker genarting delaunay for frame 78
+2023-03-14 23:27:50 : worker_0 : DEBUG : Worker genarting delaunay for frame 25
+2023-03-14 23:27:50 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 78
+2023-03-14 23:27:50 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 25
+2023-03-14 23:27:50 : worker_2 : DEBUG : Worker genarting vertices for frame 138
+2023-03-14 23:27:51 : worker_2 : DEBUG : Worker genarting delaunay for frame 138
+2023-03-14 23:27:51 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 138
+2023-03-14 23:27:51 : worker_1 : DEBUG : Worker genarting vertices for frame 79
+2023-03-14 23:27:51 : worker_0 : DEBUG : Worker genarting vertices for frame 26
+2023-03-14 23:27:52 : worker_1 : DEBUG : Worker genarting delaunay for frame 79
+2023-03-14 23:27:52 : worker_0 : DEBUG : Worker genarting delaunay for frame 26
+2023-03-14 23:27:52 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 26
+2023-03-14 23:27:52 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 79
+2023-03-14 23:27:52 : worker_2 : DEBUG : Worker genarting vertices for frame 139
+2023-03-14 23:27:53 : worker_0 : DEBUG : Worker genarting vertices for frame 27
+2023-03-14 23:27:53 : worker_0 : DEBUG : Worker genarting delaunay for frame 27
+2023-03-14 23:27:53 : worker_2 : DEBUG : Worker genarting delaunay for frame 139
+2023-03-14 23:27:53 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 27
+2023-03-14 23:27:53 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 139
+2023-03-14 23:27:53 : worker_1 : DEBUG : Worker genarting vertices for frame 80
+2023-03-14 23:27:54 : worker_0 : DEBUG : Worker genarting vertices for frame 28
+2023-03-14 23:27:54 : worker_1 : DEBUG : Worker genarting delaunay for frame 80
+2023-03-14 23:27:54 : worker_0 : DEBUG : Worker genarting delaunay for frame 28
+2023-03-14 23:27:54 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 80
+2023-03-14 23:27:54 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 28
+2023-03-14 23:27:54 : worker_2 : DEBUG : Worker genarting vertices for frame 140
+2023-03-14 23:27:55 : worker_1 : DEBUG : Worker genarting vertices for frame 81
+2023-03-14 23:27:55 : worker_2 : DEBUG : Worker genarting delaunay for frame 140
+2023-03-14 23:27:55 : worker_1 : DEBUG : Worker genarting delaunay for frame 81
+2023-03-14 23:27:55 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 140
+2023-03-14 23:27:55 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 81
+2023-03-14 23:27:56 : worker_0 : DEBUG : Worker genarting vertices for frame 29
+2023-03-14 23:27:56 : worker_0 : DEBUG : Worker genarting delaunay for frame 29
+2023-03-14 23:27:56 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 29
+2023-03-14 23:27:56 : worker_1 : DEBUG : Worker genarting vertices for frame 82
+2023-03-14 23:27:56 : worker_2 : DEBUG : Worker genarting vertices for frame 141
+2023-03-14 23:27:56 : worker_1 : DEBUG : Worker genarting delaunay for frame 82
+2023-03-14 23:27:56 : worker_2 : DEBUG : Worker genarting delaunay for frame 141
+2023-03-14 23:27:56 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 141
+2023-03-14 23:27:56 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 82
+2023-03-14 23:27:57 : worker_0 : DEBUG : Worker genarting vertices for frame 30
+2023-03-14 23:27:57 : worker_2 : DEBUG : Worker genarting vertices for frame 142
+2023-03-14 23:27:58 : worker_0 : DEBUG : Worker genarting delaunay for frame 30
+2023-03-14 23:27:58 : worker_2 : DEBUG : Worker genarting delaunay for frame 142
+2023-03-14 23:27:58 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 30
+2023-03-14 23:27:58 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 142
+2023-03-14 23:27:58 : worker_1 : DEBUG : Worker genarting vertices for frame 83
+2023-03-14 23:27:59 : worker_1 : DEBUG : Worker genarting delaunay for frame 83
+2023-03-14 23:27:59 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 83
+2023-03-14 23:27:59 : worker_2 : DEBUG : Worker genarting vertices for frame 143
+2023-03-14 23:27:59 : worker_0 : DEBUG : Worker genarting vertices for frame 31
+2023-03-14 23:27:59 : worker_0 : DEBUG : Worker genarting delaunay for frame 31
+2023-03-14 23:27:59 : worker_2 : DEBUG : Worker genarting delaunay for frame 143
+2023-03-14 23:27:59 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 31
+2023-03-14 23:27:59 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 143
+2023-03-14 23:28:00 : worker_1 : DEBUG : Worker genarting vertices for frame 84
+2023-03-14 23:28:00 : worker_0 : DEBUG : Worker genarting vertices for frame 32
+2023-03-14 23:28:00 : worker_1 : DEBUG : Worker genarting delaunay for frame 84
+2023-03-14 23:28:00 : worker_0 : DEBUG : Worker genarting delaunay for frame 32
+2023-03-14 23:28:00 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 32
+2023-03-14 23:28:00 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 84
+2023-03-14 23:28:01 : worker_2 : DEBUG : Worker genarting vertices for frame 144
+2023-03-14 23:28:01 : worker_2 : DEBUG : Worker genarting delaunay for frame 144
+2023-03-14 23:28:01 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 144
+2023-03-14 23:28:02 : worker_1 : DEBUG : Worker genarting vertices for frame 85
+2023-03-14 23:28:02 : worker_0 : DEBUG : Worker genarting vertices for frame 33
+2023-03-14 23:28:02 : worker_1 : DEBUG : Worker genarting delaunay for frame 85
+2023-03-14 23:28:02 : worker_0 : DEBUG : Worker genarting delaunay for frame 33
+2023-03-14 23:28:02 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 33
+2023-03-14 23:28:02 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 85
+2023-03-14 23:28:02 : worker_2 : DEBUG : Worker genarting vertices for frame 145
+2023-03-14 23:28:03 : worker_2 : DEBUG : Worker genarting delaunay for frame 145
+2023-03-14 23:28:03 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 145
+2023-03-14 23:28:03 : worker_0 : DEBUG : Worker genarting vertices for frame 34
+2023-03-14 23:28:03 : worker_1 : DEBUG : Worker genarting vertices for frame 86
+2023-03-14 23:28:04 : worker_1 : DEBUG : Worker genarting delaunay for frame 86
+2023-03-14 23:28:04 : worker_0 : DEBUG : Worker genarting delaunay for frame 34
+2023-03-14 23:28:04 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 34
+2023-03-14 23:28:04 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 86
+2023-03-14 23:28:04 : worker_2 : DEBUG : Worker genarting vertices for frame 146
+2023-03-14 23:28:05 : worker_2 : DEBUG : Worker genarting delaunay for frame 146
+2023-03-14 23:28:05 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 146
+2023-03-14 23:28:05 : worker_1 : DEBUG : Worker genarting vertices for frame 87
+2023-03-14 23:28:05 : worker_0 : DEBUG : Worker genarting vertices for frame 35
+2023-03-14 23:28:05 : worker_0 : DEBUG : Worker genarting delaunay for frame 35
+2023-03-14 23:28:05 : worker_1 : DEBUG : Worker genarting delaunay for frame 87
+2023-03-14 23:28:05 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 35
+2023-03-14 23:28:05 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 87
+2023-03-14 23:28:06 : worker_2 : DEBUG : Worker genarting vertices for frame 147
+2023-03-14 23:28:06 : worker_1 : DEBUG : Worker genarting vertices for frame 88
+2023-03-14 23:28:06 : worker_2 : DEBUG : Worker genarting delaunay for frame 147
+2023-03-14 23:28:06 : worker_1 : DEBUG : Worker genarting delaunay for frame 88
+2023-03-14 23:28:06 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 147
+2023-03-14 23:28:06 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 88
+2023-03-14 23:28:07 : worker_0 : DEBUG : Worker genarting vertices for frame 36
+2023-03-14 23:28:07 : worker_2 : DEBUG : Worker genarting vertices for frame 148
+2023-03-14 23:28:07 : worker_0 : DEBUG : Worker genarting delaunay for frame 36
+2023-03-14 23:28:07 : worker_2 : DEBUG : Worker genarting delaunay for frame 148
+2023-03-14 23:28:07 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 36
+2023-03-14 23:28:07 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 148
+2023-03-14 23:28:08 : worker_1 : DEBUG : Worker genarting vertices for frame 89
+2023-03-14 23:28:08 : worker_2 : DEBUG : Worker genarting vertices for frame 149
+2023-03-14 23:28:08 : worker_1 : DEBUG : Worker genarting delaunay for frame 89
+2023-03-14 23:28:08 : worker_2 : DEBUG : Worker genarting delaunay for frame 149
+2023-03-14 23:28:08 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 89
+2023-03-14 23:28:08 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 149
+2023-03-14 23:28:09 : worker_0 : DEBUG : Worker genarting vertices for frame 37
+2023-03-14 23:28:10 : worker_0 : DEBUG : Worker genarting delaunay for frame 37
+2023-03-14 23:28:10 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 37
+2023-03-14 23:28:10 : worker_1 : DEBUG : Worker genarting vertices for frame 90
+2023-03-14 23:28:10 : worker_2 : DEBUG : Worker genarting vertices for frame 150
+2023-03-14 23:28:10 : worker_1 : DEBUG : Worker genarting delaunay for frame 90
+2023-03-14 23:28:10 : worker_2 : DEBUG : Worker genarting delaunay for frame 150
+2023-03-14 23:28:10 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 150
+2023-03-14 23:28:10 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 90
+2023-03-14 23:28:11 : worker_0 : DEBUG : Worker genarting vertices for frame 38
+2023-03-14 23:28:11 : worker_0 : DEBUG : Worker genarting delaunay for frame 38
+2023-03-14 23:28:11 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 38
+2023-03-14 23:28:12 : worker_1 : DEBUG : Worker genarting vertices for frame 91
+2023-03-14 23:28:12 : worker_2 : DEBUG : Worker genarting vertices for frame 151
+2023-03-14 23:28:12 : worker_1 : DEBUG : Worker genarting delaunay for frame 91
+2023-03-14 23:28:12 : worker_2 : DEBUG : Worker genarting delaunay for frame 151
+2023-03-14 23:28:12 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 151
+2023-03-14 23:28:12 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 91
+2023-03-14 23:28:12 : worker_0 : DEBUG : Worker genarting vertices for frame 39
+2023-03-14 23:28:13 : worker_0 : DEBUG : Worker genarting delaunay for frame 39
+2023-03-14 23:28:13 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 39
+2023-03-14 23:28:13 : worker_2 : DEBUG : Worker genarting vertices for frame 152
+2023-03-14 23:28:13 : worker_1 : DEBUG : Worker genarting vertices for frame 92
+2023-03-14 23:28:13 : worker_1 : DEBUG : Worker genarting delaunay for frame 92
+2023-03-14 23:28:13 : worker_2 : DEBUG : Worker genarting delaunay for frame 152
+2023-03-14 23:28:13 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 152
+2023-03-14 23:28:13 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 92
+2023-03-14 23:28:14 : worker_0 : DEBUG : Worker genarting vertices for frame 40
+2023-03-14 23:28:15 : worker_2 : DEBUG : Worker genarting vertices for frame 153
+2023-03-14 23:28:15 : worker_0 : DEBUG : Worker genarting delaunay for frame 40
+2023-03-14 23:28:15 : worker_2 : DEBUG : Worker genarting delaunay for frame 153
+2023-03-14 23:28:15 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 40
+2023-03-14 23:28:15 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 153
+2023-03-14 23:28:15 : worker_1 : DEBUG : Worker genarting vertices for frame 93
+2023-03-14 23:28:16 : worker_2 : DEBUG : Worker genarting vertices for frame 154
+2023-03-14 23:28:16 : worker_1 : DEBUG : Worker genarting delaunay for frame 93
+2023-03-14 23:28:16 : worker_2 : DEBUG : Worker genarting delaunay for frame 154
+2023-03-14 23:28:16 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 93
+2023-03-14 23:28:16 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 154
+2023-03-14 23:28:16 : worker_0 : DEBUG : Worker genarting vertices for frame 41
+2023-03-14 23:28:17 : worker_2 : DEBUG : Worker genarting vertices for frame 155
+2023-03-14 23:28:17 : worker_0 : DEBUG : Worker genarting delaunay for frame 41
+2023-03-14 23:28:17 : worker_2 : DEBUG : Worker genarting delaunay for frame 155
+2023-03-14 23:28:17 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 41
+2023-03-14 23:28:17 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 155
+2023-03-14 23:28:17 : worker_1 : DEBUG : Worker genarting vertices for frame 94
+2023-03-14 23:28:18 : worker_2 : DEBUG : Worker genarting vertices for frame 156
+2023-03-14 23:28:18 : worker_1 : DEBUG : Worker genarting delaunay for frame 94
+2023-03-14 23:28:18 : worker_2 : DEBUG : Worker genarting delaunay for frame 156
+2023-03-14 23:28:18 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 156
+2023-03-14 23:28:18 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 94
+2023-03-14 23:28:19 : worker_0 : DEBUG : Worker genarting vertices for frame 42
+2023-03-14 23:28:19 : worker_0 : DEBUG : Worker genarting delaunay for frame 42
+2023-03-14 23:28:19 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 42
+2023-03-14 23:28:19 : worker_2 : DEBUG : Worker genarting vertices for frame 157
+2023-03-14 23:28:19 : worker_1 : DEBUG : Worker genarting vertices for frame 95
+2023-03-14 23:28:20 : worker_1 : DEBUG : Worker genarting delaunay for frame 95
+2023-03-14 23:28:20 : worker_2 : DEBUG : Worker genarting delaunay for frame 157
+2023-03-14 23:28:20 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 157
+2023-03-14 23:28:20 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 95
+2023-03-14 23:28:20 : worker_0 : DEBUG : Worker genarting vertices for frame 43
+2023-03-14 23:28:21 : worker_0 : DEBUG : Worker genarting delaunay for frame 43
+2023-03-14 23:28:21 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 43
+2023-03-14 23:28:21 : worker_1 : DEBUG : Worker genarting vertices for frame 96
+2023-03-14 23:28:21 : worker_2 : DEBUG : Worker genarting vertices for frame 158
+2023-03-14 23:28:21 : worker_1 : DEBUG : Worker genarting delaunay for frame 96
+2023-03-14 23:28:21 : worker_2 : DEBUG : Worker genarting delaunay for frame 158
+2023-03-14 23:28:21 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 96
+2023-03-14 23:28:21 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 158
+2023-03-14 23:28:22 : worker_0 : DEBUG : Worker genarting vertices for frame 44
+2023-03-14 23:28:22 : worker_2 : DEBUG : Worker genarting vertices for frame 159
+2023-03-14 23:28:22 : worker_0 : DEBUG : Worker genarting delaunay for frame 44
+2023-03-14 23:28:22 : worker_2 : DEBUG : Worker genarting delaunay for frame 159
+2023-03-14 23:28:22 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 44
+2023-03-14 23:28:22 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 159
+2023-03-14 23:28:23 : worker_1 : DEBUG : Worker genarting vertices for frame 97
+2023-03-14 23:28:23 : worker_1 : DEBUG : Worker genarting delaunay for frame 97
+2023-03-14 23:28:24 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 97
+2023-03-14 23:28:24 : worker_2 : DEBUG : Worker genarting vertices for frame 160
+2023-03-14 23:28:24 : worker_0 : DEBUG : Worker genarting vertices for frame 45
+2023-03-14 23:28:24 : worker_2 : DEBUG : Worker genarting delaunay for frame 160
+2023-03-14 23:28:24 : worker_0 : DEBUG : Worker genarting delaunay for frame 45
+2023-03-14 23:28:24 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 160
+2023-03-14 23:28:24 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 45
+2023-03-14 23:28:25 : worker_1 : DEBUG : Worker genarting vertices for frame 98
+2023-03-14 23:28:25 : worker_2 : DEBUG : Worker genarting vertices for frame 161
+2023-03-14 23:28:25 : worker_1 : DEBUG : Worker genarting delaunay for frame 98
+2023-03-14 23:28:25 : worker_2 : DEBUG : Worker genarting delaunay for frame 161
+2023-03-14 23:28:25 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 98
+2023-03-14 23:28:25 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 161
+2023-03-14 23:28:26 : worker_0 : DEBUG : Worker genarting vertices for frame 46
+2023-03-14 23:28:26 : worker_1 : DEBUG : Worker genarting vertices for frame 99
+2023-03-14 23:28:26 : worker_0 : DEBUG : Worker genarting delaunay for frame 46
+2023-03-14 23:28:26 : worker_1 : DEBUG : Worker genarting delaunay for frame 99
+2023-03-14 23:28:26 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 46
+2023-03-14 23:28:26 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 99
+2023-03-14 23:28:27 : worker_2 : DEBUG : Worker genarting vertices for frame 162
+2023-03-14 23:28:27 : worker_0 : DEBUG : Worker genarting vertices for frame 47
+2023-03-14 23:28:27 : worker_2 : DEBUG : Worker genarting delaunay for frame 162
+2023-03-14 23:28:27 : worker_0 : DEBUG : Worker genarting delaunay for frame 47
+2023-03-14 23:28:27 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 162
+2023-03-14 23:28:27 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 47
+2023-03-14 23:28:28 : worker_1 : DEBUG : Worker genarting vertices for frame 100
+2023-03-14 23:28:29 : worker_2 : DEBUG : Worker genarting vertices for frame 163
+2023-03-14 23:28:29 : worker_2 : DEBUG : Worker genarting delaunay for frame 163
+2023-03-14 23:28:29 : worker_1 : DEBUG : Worker genarting delaunay for frame 100
+2023-03-14 23:28:29 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 163
+2023-03-14 23:28:29 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 100
+2023-03-14 23:28:29 : worker_0 : DEBUG : Worker genarting vertices for frame 48
+2023-03-14 23:28:30 : worker_0 : DEBUG : Worker genarting delaunay for frame 48
+2023-03-14 23:28:30 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 48
+2023-03-14 23:28:30 : worker_2 : DEBUG : Worker genarting vertices for frame 164
+2023-03-14 23:28:30 : worker_1 : DEBUG : Worker genarting vertices for frame 101
+2023-03-14 23:28:30 : worker_2 : DEBUG : Worker genarting delaunay for frame 164
+2023-03-14 23:28:30 : worker_1 : DEBUG : Worker genarting delaunay for frame 101
+2023-03-14 23:28:30 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 164
+2023-03-14 23:28:30 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 101
+2023-03-14 23:28:31 : worker_0 : DEBUG : Worker genarting vertices for frame 49
+2023-03-14 23:28:31 : worker_0 : DEBUG : Worker genarting delaunay for frame 49
+2023-03-14 23:28:31 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 49
+2023-03-14 23:28:32 : worker_1 : DEBUG : Worker genarting vertices for frame 102
+2023-03-14 23:28:32 : worker_2 : DEBUG : Worker genarting vertices for frame 165
+2023-03-14 23:28:32 : worker_1 : DEBUG : Worker genarting delaunay for frame 102
+2023-03-14 23:28:32 : worker_2 : DEBUG : Worker genarting delaunay for frame 165
+2023-03-14 23:28:32 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 102
+2023-03-14 23:28:32 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 165
+2023-03-14 23:28:33 : worker_0 : DEBUG : Worker genarting vertices for frame 50
+2023-03-14 23:28:33 : worker_0 : DEBUG : Worker genarting delaunay for frame 50
+2023-03-14 23:28:33 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 50
+2023-03-14 23:28:33 : worker_2 : DEBUG : Worker genarting vertices for frame 166
+2023-03-14 23:28:33 : worker_1 : DEBUG : Worker genarting vertices for frame 103
+2023-03-14 23:28:33 : worker_2 : DEBUG : Worker genarting delaunay for frame 166
+2023-03-14 23:28:33 : worker_1 : DEBUG : Worker genarting delaunay for frame 103
+2023-03-14 23:28:33 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 166
+2023-03-14 23:28:33 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 103
+2023-03-14 23:28:34 : worker_0 : DEBUG : Worker genarting vertices for frame 51
+2023-03-14 23:28:34 : worker_0 : DEBUG : Worker genarting delaunay for frame 51
+2023-03-14 23:28:34 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 51
+2023-03-14 23:28:35 : worker_2 : DEBUG : Worker genarting vertices for frame 167
+2023-03-14 23:28:35 : worker_1 : DEBUG : Worker genarting vertices for frame 104
+2023-03-14 23:28:35 : worker_2 : DEBUG : Worker genarting delaunay for frame 167
+2023-03-14 23:28:35 : worker_1 : DEBUG : Worker genarting delaunay for frame 104
+2023-03-14 23:28:35 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 167
+2023-03-14 23:28:35 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 104
+2023-03-14 23:28:36 : worker_0 : DEBUG : Worker genarting vertices for frame 52
+2023-03-14 23:28:36 : worker_0 : DEBUG : Worker genarting delaunay for frame 52
+2023-03-14 23:28:36 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 52
+2023-03-14 23:28:36 : worker_2 : DEBUG : Worker genarting vertices for frame 168
+2023-03-14 23:28:37 : worker_1 : DEBUG : Worker genarting vertices for frame 105
+2023-03-14 23:28:37 : worker_2 : DEBUG : Worker genarting delaunay for frame 168
+2023-03-14 23:28:37 : worker_1 : DEBUG : Worker genarting delaunay for frame 105
+2023-03-14 23:28:37 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 168
+2023-03-14 23:28:37 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 105
+2023-03-14 23:28:37 : worker_0 : DEBUG : Worker genarting vertices for frame 53
+2023-03-14 23:28:38 : worker_0 : DEBUG : Worker genarting delaunay for frame 53
+2023-03-14 23:28:38 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 53
+2023-03-14 23:28:38 : worker_2 : DEBUG : Worker genarting vertices for frame 169
+2023-03-14 23:28:38 : worker_1 : DEBUG : Worker genarting vertices for frame 106
+2023-03-14 23:28:38 : worker_2 : DEBUG : Worker genarting delaunay for frame 169
+2023-03-14 23:28:38 : worker_1 : DEBUG : Worker genarting delaunay for frame 106
+2023-03-14 23:28:38 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 106
+2023-03-14 23:28:38 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 169
+2023-03-14 23:28:39 : worker_0 : DEBUG : Worker genarting vertices for frame 54
+2023-03-14 23:28:40 : worker_0 : DEBUG : Worker genarting delaunay for frame 54
+2023-03-14 23:28:40 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 54
+2023-03-14 23:28:40 : worker_1 : DEBUG : Worker genarting vertices for frame 107
+2023-03-14 23:28:40 : worker_2 : DEBUG : Worker genarting vertices for frame 170
+2023-03-14 23:28:40 : worker_1 : DEBUG : Worker genarting delaunay for frame 107
+2023-03-14 23:28:40 : worker_2 : DEBUG : Worker genarting delaunay for frame 170
+2023-03-14 23:28:40 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 107
+2023-03-14 23:28:40 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 170
+2023-03-14 23:28:41 : worker_0 : DEBUG : Worker genarting vertices for frame 55
+2023-03-14 23:28:41 : worker_0 : DEBUG : Worker genarting delaunay for frame 55
+2023-03-14 23:28:41 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 55
+2023-03-14 23:28:42 : worker_1 : DEBUG : Worker genarting vertices for frame 108
+2023-03-14 23:28:42 : worker_2 : DEBUG : Worker genarting vertices for frame 171
+2023-03-14 23:28:42 : worker_2 : DEBUG : Worker genarting delaunay for frame 171
+2023-03-14 23:28:42 : worker_1 : DEBUG : Worker genarting delaunay for frame 108
+2023-03-14 23:28:42 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 171
+2023-03-14 23:28:42 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 108
+2023-03-14 23:28:43 : worker_0 : DEBUG : Worker genarting vertices for frame 56
+2023-03-14 23:28:43 : worker_0 : DEBUG : Worker genarting delaunay for frame 56
+2023-03-14 23:28:43 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 56
+2023-03-14 23:28:43 : worker_1 : DEBUG : Worker genarting vertices for frame 109
+2023-03-14 23:28:43 : worker_2 : DEBUG : Worker genarting vertices for frame 172
+2023-03-14 23:28:43 : worker_1 : DEBUG : Worker genarting delaunay for frame 109
+2023-03-14 23:28:43 : worker_2 : DEBUG : Worker genarting delaunay for frame 172
+2023-03-14 23:28:43 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 109
+2023-03-14 23:28:43 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 172
+2023-03-14 23:28:44 : worker_0 : DEBUG : Worker genarting vertices for frame 57
+2023-03-14 23:28:45 : worker_0 : DEBUG : Worker genarting delaunay for frame 57
+2023-03-14 23:28:45 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 57
+2023-03-14 23:28:45 : worker_2 : DEBUG : Worker genarting vertices for frame 173
+2023-03-14 23:28:45 : worker_1 : DEBUG : Worker genarting vertices for frame 110
+2023-03-14 23:28:45 : worker_2 : DEBUG : Worker genarting delaunay for frame 173
+2023-03-14 23:28:45 : worker_1 : DEBUG : Worker genarting delaunay for frame 110
+2023-03-14 23:28:45 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 173
+2023-03-14 23:28:45 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 110
+2023-03-14 23:28:46 : worker_0 : DEBUG : Worker genarting vertices for frame 58
+2023-03-14 23:28:46 : worker_1 : DEBUG : Worker genarting vertices for frame 111
+2023-03-14 23:28:46 : worker_1 : DEBUG : Worker genarting delaunay for frame 111
+2023-03-14 23:28:46 : worker_0 : DEBUG : Worker genarting delaunay for frame 58
+2023-03-14 23:28:46 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 111
+2023-03-14 23:28:46 : worker_0 : DEBUG : Worker finished  generating & writing delaunay for frame 58
+2023-03-14 23:28:46 : worker_0 : INFO : Worker finished generating delaunay triangles for frames ranging 0 - 59
+2023-03-14 23:28:47 : worker_2 : DEBUG : Worker genarting vertices for frame 174
+2023-03-14 23:28:47 : worker_2 : DEBUG : Worker genarting delaunay for frame 174
+2023-03-14 23:28:47 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 174
+2023-03-14 23:28:47 : worker_1 : DEBUG : Worker genarting vertices for frame 112
+2023-03-14 23:28:47 : worker_1 : DEBUG : Worker genarting delaunay for frame 112
+2023-03-14 23:28:47 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 112
+2023-03-14 23:28:48 : worker_2 : DEBUG : Worker genarting vertices for frame 175
+2023-03-14 23:28:48 : worker_2 : DEBUG : Worker genarting delaunay for frame 175
+2023-03-14 23:28:48 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 175
+2023-03-14 23:28:48 : worker_1 : DEBUG : Worker genarting vertices for frame 113
+2023-03-14 23:28:49 : worker_1 : DEBUG : Worker genarting delaunay for frame 113
+2023-03-14 23:28:49 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 113
+2023-03-14 23:28:49 : worker_2 : DEBUG : Worker genarting vertices for frame 176
+2023-03-14 23:28:49 : worker_2 : DEBUG : Worker genarting delaunay for frame 176
+2023-03-14 23:28:49 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 176
+2023-03-14 23:28:49 : worker_1 : DEBUG : Worker genarting vertices for frame 114
+2023-03-14 23:28:50 : worker_1 : DEBUG : Worker genarting delaunay for frame 114
+2023-03-14 23:28:50 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 114
+2023-03-14 23:28:50 : worker_2 : DEBUG : Worker genarting vertices for frame 177
+2023-03-14 23:28:50 : worker_2 : DEBUG : Worker genarting delaunay for frame 177
+2023-03-14 23:28:50 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 177
+2023-03-14 23:28:51 : worker_1 : DEBUG : Worker genarting vertices for frame 115
+2023-03-14 23:28:51 : worker_1 : DEBUG : Worker genarting delaunay for frame 115
+2023-03-14 23:28:51 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 115
+2023-03-14 23:28:51 : worker_2 : DEBUG : Worker genarting vertices for frame 178
+2023-03-14 23:28:51 : worker_2 : DEBUG : Worker genarting delaunay for frame 178
+2023-03-14 23:28:51 : worker_2 : DEBUG : Worker finished  generating & writing delaunay for frame 178
+2023-03-14 23:28:51 : worker_2 : INFO : Worker finished generating delaunay triangles for frames ranging 118 - 179
+2023-03-14 23:28:51 : worker_1 : DEBUG : Worker genarting vertices for frame 116
+2023-03-14 23:28:51 : worker_1 : DEBUG : Worker genarting delaunay for frame 116
+2023-03-14 23:28:51 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 116
+2023-03-14 23:28:52 : worker_1 : DEBUG : Worker genarting vertices for frame 117
+2023-03-14 23:28:52 : worker_1 : DEBUG : Worker genarting delaunay for frame 117
+2023-03-14 23:28:52 : worker_1 : DEBUG : Worker finished  generating & writing delaunay for frame 117
+2023-03-14 23:28:52 : worker_1 : INFO : Worker finished generating delaunay triangles for frames ranging 59 - 118
+2023-03-14 23:28:52 : MainThread : INFO : Completed generating delaunay triangles
+2023-03-14 23:28:52 : MainThread : INFO : Start writing outputvideo
+2023-03-14 23:28:52 : MainThread : INFO : Writing output video to file: /Users/deepikasulakhe/workspace/data/video/output_testVid02.mkv
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 1 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 2 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 3 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 4 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 5 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 6 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 7 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 8 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 9 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 10 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 11 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 12 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 13 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 14 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 15 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 16 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 17 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 18 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 19 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 20 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 21 out of 179 to the file
+2023-03-14 23:28:52 : MainThread : DEBUG : videoWriter written 22 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 23 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 24 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 25 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 26 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 27 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 28 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 29 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 30 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 31 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 32 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 33 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 34 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 35 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 36 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 37 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 38 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 39 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 40 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 41 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 42 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 43 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 44 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 45 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 46 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 47 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 48 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 49 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 50 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 51 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 52 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 53 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 54 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 55 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 56 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 57 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 58 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 59 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 60 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 61 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 62 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 63 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 64 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 65 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 66 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 67 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 68 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 69 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 70 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 71 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 72 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 73 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 74 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 75 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 76 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 77 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 78 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 79 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 80 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 81 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 82 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 83 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 84 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 85 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 86 out of 179 to the file
+2023-03-14 23:28:53 : MainThread : DEBUG : videoWriter written 87 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 88 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 89 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 90 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 91 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 92 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 93 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 94 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 95 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 96 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 97 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 98 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 99 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 100 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 101 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 102 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 103 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 104 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 105 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 106 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 107 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 108 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 109 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 110 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 111 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 112 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 113 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 114 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 115 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 116 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 117 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 118 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 119 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 120 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 121 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 122 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 123 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 124 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 125 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 126 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 127 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 128 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 129 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 130 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 131 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 132 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 133 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 134 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 135 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 136 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 137 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 138 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 139 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 140 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 141 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 142 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 143 out of 179 to the file
+2023-03-14 23:28:54 : MainThread : DEBUG : videoWriter written 144 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 145 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 146 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 147 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 148 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 149 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 150 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 151 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 152 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 153 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 154 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 155 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 156 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 157 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 158 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 159 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 160 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 161 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 162 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 163 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 164 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 165 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 166 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 167 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 168 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 169 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 170 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 171 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 172 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 173 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 174 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 175 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 176 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 177 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 178 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : DEBUG : videoWriter written 179 out of 179 to the file
+2023-03-14 23:28:55 : MainThread : INFO : Finished writing output video
+2023-03-14 23:28:55 : MainThread : INFO : Shutting down threadpool
+2023-03-14 23:28:57 : MainThread : INFO : Completed!
